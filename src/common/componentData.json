@@ -10,7 +10,8 @@
       "Content": {
         "type": "ModalComponent",
         "props": {
-          "isOpen": true,
+          "name": "modalA",
+          "isOpen": false,
           "width": "500px",
           "height": "400px"
         }
@@ -46,7 +47,11 @@
           "Content": {
             "type": "ButtonComponent",
             "props": {
-              "text": "Click me to open the modal"
+              "text": "Click me to open the modal",
+              "secondaryAction": {
+                "type": "openModal",
+                "target": "modalA"
+              }
             }
           }
         },
