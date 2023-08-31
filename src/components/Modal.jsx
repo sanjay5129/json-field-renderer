@@ -12,7 +12,7 @@ export default function ModalComponent({ isOpen, name, children, stateValue, han
       }}
       onClose={handleModalClose(name)}
       name={name}
-      open={typeof stateValue === Boolean ? stateValue : isOpen}
+      open={stateValue === undefined ? isOpen : stateValue}
     >
       <>
         {children}

@@ -1,6 +1,7 @@
 import Modal from '../../components/Modal'
 import List from '../../components/List'
 import Button from '../../components/Button'
+import Link from '../../components/Link'
 import Box from '../../components/Box'
 import Typography from '../../components/Typography'
 
@@ -47,7 +48,7 @@ const componentMapper = (handleModalClose) => ({
   },
   LinkComponent: {
     children: false,
-    Component: Button,
+    Component: Link,
   },
 })
 

@@ -34,5 +34,5 @@ npm run dev
 
 - The data, I have assumed might have more than 1 modal per page and that is how I have designed the codebase. Generally, there is 1 modal per page and that would have made the code a bit simpler.
 - I did not use Typescript as the requirement was for Javascript. I also did not use prop types for validation owing to time constraints.
-- The main branch holds the code for the actual question. While it was not required but I have a sample code or sort of a POC for the Additional Requirement question that wanted to perform modal related actions using buttons and link etc.
+- The main branch holds the code for the actual question. While it was not required but I have a sample code or sort of a POC for the Additional Requirement question that wanted to perform modal related actions using buttons and link etc. The branch name for the POC is "feature/additional-requirements".
 

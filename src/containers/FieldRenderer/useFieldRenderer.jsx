@@ -3,14 +3,13 @@ import componentMapper from "./fieldData";
 
 const useFieldRenderer = () => {
   let componentCounter = 0;
-  const [fieldState, setFieldState] = useState({});
+  const [fieldState, setFieldState] = useState({ModalComponent1: true});
 
-  const handleModalClose = (modalName) => () => {
+  const handleModalClose = (modalName) => () =>
     setFieldState((prev) => ({
       ...prev,
       [modalName]: false,
     }));
-  };
 
   const componentMap = componentMapper(handleModalClose);
 
